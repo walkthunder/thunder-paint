@@ -1,0 +1,26 @@
+{
+  "name": "typescript_test",
+  "version": "0.0.1",
+  "description": "A repo to test typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "walkthunder",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "git+https://github.com/DanielRosenwasser/vue.git#540a38fb21adb7a7bc394c65e23e6cffb36cd867"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "2.2.1",
+    "webpack": "^3.10.0"
+  }
+}
